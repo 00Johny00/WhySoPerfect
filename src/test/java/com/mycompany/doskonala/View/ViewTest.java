@@ -20,9 +20,7 @@ class ViewTest {
      Class of ViewTest */
     private static final String MESSAGE_FOR_ENTER_LOWER_COMPARTMENT = "Please Enter Lower Compartment";
     private static final String MESSAGE_FOR_ENTER_HIGHER_COMPARTMENT = "Please Enter Higher Compartment";
-    private static final String MESSAGE_FOR_RESULTS = "Perfect Numbers are: \n";
 
-    private final PrintStream standardOut = System.out;
     private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
     private View view;
 
